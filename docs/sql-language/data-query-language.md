@@ -79,27 +79,24 @@ order by
 
 | 函数 | 描述 |
 | :--- | :--- |
-| concat\(\) | 拼接 |
-|  |  |
-
-#### 日期函数
+| concat | 拼接 |
+| substr | 截取子串 |
+| upper | 转换成大写 |
+| lower | 转换成小写 |
+| trim | 去前后指定的空格和字符 |
+| ltrim | 去左边空格 |
+| rtrim | 去右边空格 |
+| replace | 替换 |
+| lpad | 左填充 |
+| rpad | 右填充 |
+| instr | 返回子串第一次出现的索引 |
+| length | 获取字节个数 |
 
 #### 数学函数
 
+#### 日期函数
+
 ```text
-1、字符函数
-    concat拼接
-    substr截取子串
-    upper转换成大写
-    lower转换成小写
-    trim去前后指定的空格和字符
-    ltrim去左边空格
-    rtrim去右边空格
-    replace替换
-    lpad左填充
-    rpad右填充
-    instr返回子串第一次出现的索引
-    length 获取字节个数
 
 2、数学函数
     round 四舍五入
